@@ -12,7 +12,7 @@ body {
     outline: none;
     border: none;
     cursor: pointer;
-    font-size: 3rem;
+    font-size: 4rem;
     margin-top: 5rem;
     transition: 100ms;
     color: #272727;
@@ -32,11 +32,22 @@ body {
     grid-template-columns: repeat(2, 1fr);
     justify-items: center;
     margin-top: 4rem;
-    font-size: 2rem;
+    font-size: 3rem;
     color: #272727;
 }
 
 .result-score {
     margin-left: 1rem;
-    font-size: 1.5rem;
+    font-size: 2rem;
+}
+
+.result-selection {
+    opacity: .5;
+    font-size: 1.3rem;
+    margin-top: .6rem;
+}
+
+.result-selection.winner {
+    opacity: 1;
+    font-size: 1.8rem;
 }
